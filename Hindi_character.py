@@ -48,6 +48,7 @@ X_test = X_test.reshape(X_test.shape[0], image_x, image_y, 1)
 print("X_train shape: "+str(X_train.shape))
 print("Y_train shape: "+str(Y_train.shape))
 
+#Building model
 def keras_model(image_x,image_y):
     num_of_classes = 37
     model = Sequential()
